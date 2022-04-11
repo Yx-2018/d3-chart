@@ -1,0 +1,26 @@
+{
+  "name": "d3-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "serve": "./bin/index.js"
+  },
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.4.2"
+  },
+  "devDependencies": {
+    "cac": "^6.7.12",
+    "rollup": "^2.70.1",
+    "rollup-plugin-html2": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
